@@ -25,7 +25,7 @@ function EmployeeContext({ children }) {
 
   const addEmp = async (employeeDetail) => {
     try {
-      selectedEmp(null);
+      setSelectedEmp(null);
       const myHeaders = new Headers();
       myHeaders.append("Content-Type", "application/json");
 
